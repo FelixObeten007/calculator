@@ -13,9 +13,11 @@ body{
 }
 
 .container{
-    background-color: black;
+    color: black;
+    width: 75%;
+    height: auto;
 }
 
 .calculator{
-    background-color: cornsilk;
+    color: cornsilk;
 }
