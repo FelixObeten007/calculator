@@ -9,6 +9,7 @@ body{
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
+<<<<<<< HEAD
 	  background: linear-gradient(to right, red , yellow);
 }
 
@@ -20,4 +21,7 @@ body{
 
 .calculator{
     color: cornsilk;
+=======
+    background: linear-gradient(to right, silver, gray);
+>>>>>>> a0a24dd4f0c196516714fc96cc9aeabb01de14c7
 }
