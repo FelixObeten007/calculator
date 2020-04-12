@@ -9,13 +9,5 @@ body{
     text-transform: uppercase;
     letter-spacing: .5em;
     top: 15%;
-	  background: linear-gradient(to right, red , yellow);
-}
-
-.container{
-    background-color: black;
-}
-
-.calculator{
-    background-color: cornsilk;
+    background: linear-gradient(to right, red , yellow);
 }
