@@ -41,6 +41,23 @@ for(var i = 0; i<operator.length; i++){
             printOutput(output);
         }
     }
+    else{
+        let output = getOutput();
+        let history = getHistory();
+        if(output != ""){
+            output = reverseNumberFormat(output);
+            history += output;
+            if(this.id == "="){
+                let result = eval(history);
+                printOutput(result);
+                printHistory("");
+            } else{
+                history += this.id;
+                printHistory(history);
+                printOutput("");
+            }
+        }
+    }
     })
 }
 
