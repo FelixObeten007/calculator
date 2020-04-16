@@ -1,3 +1,3 @@
 # calculator
-#version 1.0
-#developed by: Felix Obeten
+# version 1.0
+# developed by: Felix Obeten
