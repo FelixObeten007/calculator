@@ -19,25 +19,27 @@ body{
     top: 20px;
     position: relative;
     border-radius: 5px;
-    box-shadow: 0 8px 16px 0 rgba(248, 4, 4, 0.5);
+    box-shadow: 0 8px 16px 0 rgba(54, 8, 8, 0.5);
 }
 
 #result{
     height: 120px;
+    color: white;
+    background-color: rgb(53, 11, 11);
 }
 
 #history{
     text-align: right;
-    height: 20px;
+    height: 40px;
     margin: 0 20px;
     padding-top: 20px;
     font-size: 18px;
-    color: #883434;
+    color: #225574;
 }
 
 #output{
     text-align: right;
-    height: 40px;
+    height: 80px;
     margin: 10px 20px;
     font-size: 30px;
 }
