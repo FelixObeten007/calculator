@@ -34,7 +34,7 @@ body{
     margin: 0 20px;
     padding-top: 20px;
     font-size: 18px;
-    color: #225574;
+    color: #1d8dd3;
 }
 
 #output{
@@ -70,4 +70,25 @@ body{
 
 .operator:focus, .number:focus, empty:focus{
     outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #20b2aa;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #b2b020;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #b22020;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #5f20b2;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #a620b2;
 }

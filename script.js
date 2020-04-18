@@ -53,7 +53,8 @@ for(var i = 0; i<operator.length; i++){
             }
         }
         if(output != "" || history != ""){
-            output = output ==""? output: reverseNumberFormat(output);
+            output = output == ""
+                ? output: reverseNumberFormat(output);
             history += output;
             if(this.id == "="){
                 let result = eval(history);
