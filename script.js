@@ -67,6 +67,9 @@ for(var i = 0; i<operator.length; i++){
                 printOutput("");
             }
         }
+    } 
+    if (this.id == '.'){
+        output += this.id;
     }
     });
 }
